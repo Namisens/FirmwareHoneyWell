@@ -1,0 +1,29 @@
+# Compiled object files
+*.o
+
+# Executables
+*.elf
+*.bin
+
+# Build output directories
+/build/
+/Debug/
+/Release/
+
+# IDE specific files
+
+/.settings/
+/.vs/
+/.vscode/
+/cmake/
+/.metadata/
+
+# Dependency files
+/Dependencies/
+
+# Generated files
+/Generated/
+
+# System files
+/.DS_Store
+/Thumbs.db

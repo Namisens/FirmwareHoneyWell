@@ -1,0 +1,90 @@
+Configuration	HelmholzC
+STM32CubeMX 	6.10.0
+Date	02/15/2024
+MCU	STM32G071K8Ux
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN2	ADC1_IN2	PA2
+ADC1	IN3	ADC1_IN3	PA3
+ADC1	IN4	ADC1_IN4	PA4
+SYS	Serial Wire	SYS_SWCLK	PA14-BOOT0
+SYS	Serial Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+SYS	Dead Battery Signals disabled	SYS_VS_DBSignals	VP_SYS_VS_DBSignals
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+1	PB9	GPIO_Output	MUX_1
+7	PA0	GPIO_Output	MUX_3
+8	PA1	GPIO_Output	MUX_4
+9	PA2	ADC1_IN2	TEMP_1
+10	PA3	ADC1_IN3	TEMP_2
+11	PA4	ADC1_IN4	TEMP_3
+12	PA5*	SPI1_SCK	FLASH_SCK
+13	PA6*	SPI1_MISO	FLASH_MISO
+14	PA7*	SPI1_MOSI	FLASH_MOSI
+15	PB0	GPIO_Output	CHIP_SELECT_FLASH
+19	PA9*	USART1_TX	
+21	PA10*	USART1_RX	
+23	PA12 [PA10]*	USART1_DE	
+24	PA13	SYS_SWDIO	
+25	PA14-BOOT0	SYS_SWCLK	
+32	PB8	GPIO_Output	MUX_2
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN2	ADC1_IN2	PA2
+ADC1	IN3	ADC1_IN3	PA3
+ADC1	IN4	ADC1_IN4	PA4
+SYS	Serial Wire	SYS_SWCLK	PA14-BOOT0
+SYS	Serial Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+SYS	Dead Battery Signals disabled	SYS_VS_DBSignals	VP_SYS_VS_DBSignals
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+1	PB9	GPIO_Output	MUX_1
+7	PA0	GPIO_Output	MUX_3
+8	PA1	GPIO_Output	MUX_4
+9	PA2	ADC1_IN2	TEMP_1
+10	PA3	ADC1_IN3	TEMP_2
+11	PA4	ADC1_IN4	TEMP_3
+12	PA5*	SPI1_SCK	FLASH_SCK
+13	PA6*	SPI1_MISO	FLASH_MISO
+14	PA7*	SPI1_MOSI	FLASH_MOSI
+15	PB0	GPIO_Output	CHIP_SELECT_FLASH
+19	PA9*	USART1_TX	
+21	PA10*	USART1_RX	
+23	PA12 [PA10]*	USART1_DE	
+24	PA13	SYS_SWDIO	
+25	PA14-BOOT0	SYS_SWCLK	
+32	PB8	GPIO_Output	MUX_2
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : HelmholzC
+Project Folder : C:\Code\Sensor\HelmholzC
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_G0 V1.6.2
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
